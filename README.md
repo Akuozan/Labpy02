@@ -3,7 +3,7 @@ Nim. : 312410535
 kelas: TI24A5 
 
 Flowchart:
-
+![.gambar1](fgw.jpeg)
 
 
 def hitung_harga_tiket(tipe_tiket, member):
