@@ -68,3 +68,37 @@ Menghitung total harga berdasarkan input user dan menampilkannya
 
 ### Beginilah hasil eksekusi dari program python di atas
 ![.gambar3](fgw4.jpeg)
+
+
+
+
+
+Flowchart
+![.gambar4](fgw.jpeg)
+
+# Fungsi untuk melakukan operasi aritmatika
+def kalkulator(angka1, angka2, operator):
+    if operator == '+':
+        return angka1 + angka2
+    elif operator == '-':
+        return angka1 - angka2
+    elif operator == '*':
+        return angka1 * angka2
+    elif operator == '/':
+        if angka2 != 0:
+            return angka1 / angka2
+        else:
+            return "Kesalahan: Pembagian dengan nol tidak diperbolehkan"
+    else:
+        return "Operator tidak valid"
+
+# Meminta input dari pengguna
+angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
+operator = input("Masukkan operator (+, -, *, /): ")
+
+# Menghitung hasil berdasarkan input pengguna
+hasil = kalkulator(angka1, angka2, operator)
+
+# Menampilkan hasil
+print(f"Hasil: {hasil}")
