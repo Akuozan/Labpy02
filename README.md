@@ -32,7 +32,7 @@ total_harga = hitung_harga_tiket(tipe_tiket, member)
 
 print(f"Total harga yang harus dibayar: Rp{total_harga}")
 
-Penjelasan Program
+# Penjelasan Program
 
 1). Definisi Fungsi hitung_harga_tiket:
 
