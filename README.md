@@ -63,3 +63,8 @@ Program meminta user untuk memasukkan tipe tiket dan status member.
 Menghitung total harga berdasarkan input user dan menampilkannya
 
 
+## Beginilah tampilan flowchart yang di buat menjadi program python
+![.gambar2](fgw3.jpeg)
+
+### Beginilah hasil hasil eksekusi dari program python di atas
+![.gambar3](fgw4.jpeg)
