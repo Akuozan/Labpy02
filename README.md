@@ -101,3 +101,44 @@ hasil = kalkulator(angka1, angka2, operator)
 
 # Menampilkan hasil
 print(f"Hasil: {hasil}")
+
+## Penjelasan Program
+1).Fungsi kalkulator:
+
+Fungsi ini menerima tiga parameter: angka1, angka2, dan operator.
+
+Berdasarkan nilai operator, fungsi ini melakukan operasi aritmatika yang sesuai:
+
+•Penjumlahan jika operator adalah '+'
+
+•Pengurangan jika operator adalah '-'
+
+•Perkalian jika operator adalah '*'
+
+•Pembagian jika operator adalah '/'
+
+Fungsi ini juga memeriksa apakah angka2 bukan nol sebelum melakukan pembagian untuk menghindari kesalahan.
+
+2).Meminta Input dari Pengguna:
+
+Program ini meminta pengguna untuk memasukkan dua angka (angka1 dan angka2) dan satu operator aritmatika (operator).
+
+3).Menghitung Hasil:
+
+Hasil dari operasi aritmatika dihitung menggunakan fungsi kalkulator berdasarkan input pengguna.
+
+4).Menampilkan Hasil:
+
+Program ini kemudian menampilkan hasil perhitungan kepada pengguna
+
+## Beginilah tampilan flowchart yang di buat menjadi program python
+![.gambar5](gw5.jpeg)
+
+### Beginilah hasil eksekusi dari program python di atas
+![.gambar6](gw1.jpeg)
+![.gambar7](gw2.jpeg)
+![.gambar8](gw3.jpeg)
+![.gambar9](gw4.jpeg)
+
+
+
